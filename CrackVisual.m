@@ -24,7 +24,7 @@ for k = frames
     
     xlim([0 570])
     title('Crack number 1')
-    xlabel('Size of the Crack             N = ' + string(k))
+    xlabel('Size of the Crack [micro-meter]            N = ' + string(k))
     grid on
     set(gca,'ytick',[])
     
@@ -34,7 +34,7 @@ for k = frames
     title('Crack number 2')
     
     xlim([0 570])
-    xlabel('Size of the Crack             N = ' + string(k))
+    xlabel('Size of the Crack [micro-meter]            N = ' + string(k))
     grid on
     set(gca,'ytick',[])
     
